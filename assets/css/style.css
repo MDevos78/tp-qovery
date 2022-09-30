@@ -1,0 +1,319 @@
+@font-face{ 
+	font-family: 'hackregular';
+	src: url('hack-regular.eot');
+	src: url('hack-regular.eot?#iefix') format('embedded-opentype'),
+	     url('hack-regular.woff') format('woff'),
+	     url('hack-regular.ttf') format('truetype'),
+	     url('hack-regular.svg#webfont') format('svg');
+}
+@font-face{ 
+	font-family: 'hkgroteskbold';
+	src: url('hkgrotesk-bold.eot');
+	src: url('hkgrotesk-bold.eot?#iefix') format('embedded-opentype'),
+	     url('hkgrotesk-bold.woff') format('woff'),
+	     url('hkgrotesk-bold.ttf') format('truetype'),
+	     url('hkgrotesk-bold.svg#webfont') format('svg');
+}
+@font-face{ 
+	font-family: 'hkgroteskextrabold';
+	src: url('hkgrotesk-extrabold.eot');
+	src: url('hkgrotesk-extrabold.eot?#iefix') format('embedded-opentype'),
+	     url('hkgrotesk-extrabold.woff') format('woff'),
+	     url('hkgrotesk-extrabold.ttf') format('truetype'),
+	     url('hkgrotesk-extrabold.svg#webfont') format('svg');
+}
+@font-face{ 
+	font-family: 'hkgrotesksemiboldlegacy';
+	src: url('hkgrotesk-semiboldlegacy.eot');
+	src: url('hkgrotesk-semiboldlegacy.eot?#iefix') format('embedded-opentype'),
+	     url('hkgrotesk-semiboldlegacy.woff') format('woff'),
+	     url('hkgrotesk-semiboldlegacy.ttf') format('truetype'),
+	     url('hkgrotesk-semiboldlegacy.svg#webfont') format('svg');
+}
+@font-face{ 
+	font-family: 'sfuitex-bold';
+	src: url('sfuitex-bold.eot');
+	src: url('sfuitex-bold.eot?#iefix') format('embedded-opentype'),
+	     url('sfuitex-bold.woff') format('woff'),
+	     url('sfuitex-bold.ttf') format('truetype'),
+	     url('sfuitex-bold.svg#webfont') format('svg');
+}
+@font-face{ 
+	font-family: 'sfuitex-regular';
+	src: url('sfuitex-regular.eot');
+	src: url('sfuitex-regular.eot?#iefix') format('embedded-opentype'),
+	     url('sfuitex-regular.woff') format('woff'),
+	     url('sfuitex-regular.ttf') format('truetype'),
+	     url('sfuitex-regular.svg#webfont') format('svg');
+}
+@font-face{ 
+	font-family: 'sfuitex-semibold';
+	src: url('sfuitex-semibold.eot');
+	src: url('sfuitex-semibold.eot?#iefix') format('embedded-opentype'),
+	     url('sfuitex-semibold.woff') format('woff'),
+	     url('sfuitex-semibold.ttf') format('truetype'),
+	     url('sfuitex-semibold.svg#webfont') format('svg');
+}
+*,::after,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: normal;
+}
+body{
+    max-width: 1440px;
+    font-family: 'sfuitexregular', Arial, sans-serif; 
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    background-color: rgb(21, 27, 43, 255);
+    height: 6rem;
+	padding: 3rem 9rem 0 9rem;
+}
+.jumbotron{
+	background-color: rgb(21, 27, 43, 255);
+	height: 52rem;
+	padding: 0 9rem;
+	display: flex;
+	justify-content: space-between;
+}
+.qovery{
+	padding-top: 7rem;
+	display: flex;
+	flex-direction: row;
+}
+h1{
+	font-family: 'sfuitex-bold', Arial, sans-serif;
+	font-size: 2rem;
+	color: white;
+	padding-right: 2rem;
+	margin-bottom: 2rem;
+}
+.stargit{
+	padding-top: 3px;
+}
+.star{
+	width: 4rem;
+	height: 2rem;
+	background-color: rgb(217, 217, 217, 255);
+	border-radius: 5px 0 0 5px;
+	margin-right: 0;
+	margin-top: 1px;
+	padding-bottom: 15px;
+}
+.stargit:hover{
+	transform: scale(1.2);
+}
+.nbr{
+	width: 2rem;
+	height: 2rem;
+	background-color: rgb(255, 255, 255, 255);
+	border-radius: 0 5px 5px 0;
+	margin-left: -6px;
+	padding-bottom:px;
+	border-left: 0;
+}
+h3{
+	color: white;
+	margin-bottom: 2rem;
+}
+.headp{
+	color: rgb(134, 134, 178, 255);
+	margin-left: 1rem;
+	margin-bottom: 3rem;
+}
+.git{
+	height: 2.5rem;
+	width: 10rem;
+	background-color: rgb(69, 70, 88, 255);
+	color: rgb(218, 218, 222, 255);
+	border-radius: 5px ;
+	margin-right: 1rem;
+}
+.git:hover{
+	transform: scale(1.2);
+}
+.git img{
+	color: rgb(218, 218, 222, 255);
+	margin-left: 0;
+	margin-right: 0.5rem;
+}
+.disc{
+	height: 2.5rem;
+	width: 10rem;
+	background-color: rgb(101, 120, 192, 255);
+	color: rgb(218, 218, 222, 255);
+	border-radius: 5px ;
+}
+.disc:hover{
+	transform: scale(1.2);
+}
+.disc img{
+	color: rgb(225, 255, 255, 255);
+	margin-left: 0;
+	margin-right: 0.5rem;
+}
+.triptic{
+	height: 43rem;
+	width: 37rem;
+	margin-top: -1rem;
+}
+.hdiw{
+	background-color: rgb(249, 249, 253, 255);
+	height: 54rem;
+	padding-top: 6rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+h2{
+	padding-bottom: 2rem;
+	font-weight: bold;
+}
+.hdiw p{
+	text-align: center;
+	padding-bottom: 2rem;
+}
+.usage{
+	background-color: rgb(249, 249, 253, 255);
+	height: 58rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.pusage{
+	margin-bottom: -2rem;
+}
+.uslogo{
+	padding-top: 3.5rem;
+}
+.moregit{
+	height: 2.5rem;
+	width: 12rem;
+	background-color: rgb(69, 70, 88, 255);
+	color: white;
+	border-radius: 5px ;
+	border: none;
+	margin-right: 1rem;
+}
+.moregit:hover{
+	transform: scale(1.2);
+}
+.moregit img{
+	color: white;
+	margin-left: 0;
+	margin-right: 0.5rem;
+}
+.joindisc{
+	height: 2.5rem;
+	width: 12rem;
+	background-color: rgb(101, 120, 192, 255);
+	color: white;
+	border-radius: 5px ;
+	border: none;
+}
+.joindisc:hover{
+	transform: scale(1.2);
+}
+.joindisc img{
+	color: rgb(225, 255, 255, 255);
+	margin-left: 0;
+	margin-right: 0.5rem;
+}
+.deploy{
+	background-color: rgb(249, 249, 253, 255);
+	height: 70rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-top: 3rem;
+	padding-left: 12rem;
+	padding-right: 12rem;
+	column-gap: 8rem;
+	row-gap: 2rem;
+}
+.deploy h3{
+	color: rgb(69, 70, 88, 255);
+	font-weight: bold;
+	margin-bottom: 1.5rem;
+}
+.appsecond{
+	padding : 2rem 0 1.5rem 0;
+}
+.appli{
+	padding-top: 0.5rem;
+	order: 1;
+	margin-right: 2rem;
+}
+.deploy button{
+	border: none;
+	background-color: rgb(249, 249, 253, 255);
+	color: rgb(93, 100, 210, 255);
+}
+.deploy button:hover{
+	text-decoration: underline;
+}
+.key{
+	order: 2;
+}
+.key button{
+	padding-bottom: 1rem;
+}
+.key button:hover{
+	text-decoration: underline;
+}
+.keysecond{
+	padding : 2rem 0 1.5rem 0;
+}
+.tools{
+	order: 3;
+}
+.tools button:hover{
+	text-decoration: underline;
+}
+.toosecond{
+	padding : 2rem 0 1.5rem 0;
+}
+.extensible{
+	order: 4;
+	padding-bottom: 2rem;
+}
+.extensible button:hover{
+	text-decoration: underline;
+}
+.extfirst{
+	padding-bottom: 1.5rem;
+}
+.footer{
+	background-color: rgb(249, 249, 253, 255);
+	height: 24rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.footer h2{
+	font-size:1.75rem;
+	padding: 6rem 0 3rem 0;
+}
+.imgfoot{
+	display: flex;
+	justify-content:space-around;
+}
+.logo-strapi{
+	flex-grow: 0;
+}
+.logo-zendesk{
+	flex-grow: 1;
+	padding: 0 4rem 0 6rem;
+}
+.logo-helios{
+	flex-grow: 1;
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+footer{
+	background-color: rgb(21, 27, 43, 255);
+    height: 11rem;
+}
